@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.60">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>VuePress</title><meta name="description" content="Vue 驱动的静态网站生成器">
+    <link rel="preload" href="/assets/style-5963348b.css" as="style"><link rel="stylesheet" href="/assets/style-5963348b.css">
+    <link rel="modulepreload" href="/assets/app-9346a2e0.js"><link rel="modulepreload" href="/assets/framework-96b046e1.js"><link rel="modulepreload" href="/assets/404.html-f9875e7b.js"><link rel="modulepreload" href="/assets/404.html-46166703.js"><link rel="prefetch" href="/assets/index.html-8a04715e.js" as="script"><link rel="prefetch" href="/assets/index.html-bfdb3d07.js" as="script"><link rel="prefetch" href="/assets/index.html-e9e53de1.js" as="script"><link rel="prefetch" href="/assets/bar.html-10e161c9.js" as="script"><link rel="prefetch" href="/assets/foo.html-9d92d08b.js" as="script"><link rel="prefetch" href="/assets/index.html-cd99d634.js" as="script"><link rel="prefetch" href="/assets/index.html-7ca14a76.js" as="script"><link rel="prefetch" href="/assets/index.html-d8b66c95.js" as="script"><link rel="prefetch" href="/assets/bar.html-4d009da6.js" as="script"><link rel="prefetch" href="/assets/foo.html-af10d871.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-9346a2e0.js" defer></script>
+  </body>
+</html>
